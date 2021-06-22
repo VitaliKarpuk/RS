@@ -1,0 +1,46 @@
+.statistic{
+    width: 100%;
+    height: 200px;
+    background-color: sienna;
+    display: flex;
+    flex-wrap: wrap;
+}
+.statistic__title{
+    width: 100%;
+    height: 20px;
+    background-color: slateblue;
+    font-size: 2rem;
+    text-align: center;
+}
+.word__wrapper{
+    height: 178px;
+    width: 100px;
+    list-style: none;
+    margin-left: 10px;
+    li{
+        width: 100%;
+        height: 19px;
+        background-color: snow;
+        margin-top: 3px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+}
+.translate__wrapper, .current__value{
+    height: 178px;
+    width: 100px;
+    list-style: none;
+    margin-left: 10px;
+    li{
+        width: 100%;
+        height: 19px;
+        background-color: snow;
+        margin-top: 3px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+}

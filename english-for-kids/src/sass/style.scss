@@ -1,0 +1,20 @@
+@import './header.scss';
+@import './content.scss';
+@import './statistic.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.display_none{
+    visibility: hidden;
+    position: absolute;
+    bottom: -200px;
+}
